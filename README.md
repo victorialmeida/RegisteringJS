@@ -1,4 +1,5 @@
 ![Letter - 2](https://user-images.githubusercontent.com/54548466/90301249-27e3c580-de75-11ea-8e5c-ab8853f8ba1b.jpg)
+
 <a href="https://github.com/victorialmeida/RegisteringJS/blob/master/LICENSE.md">
 <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=1A1818&style=for-the-badge&logo=github"/>
 </a>
