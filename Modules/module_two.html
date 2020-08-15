@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Challeng | Module 2</title>
+</head>
+<body>
+
+  <!-- ! Do not erase :
+      <div id="test"> </div>
+
+  <!-- Elements of last exercise :
+
+      <input type="text" name="inputname" onfocus="this.value=''>
+      <button class="button" onClick="addName()"> Add Name </button>
+     
+  <!-- Exercise three button :
+
+      <button id="buttons" onclick=" generate()" value="" > Click Here </button> -->
+        
+  <!-- ! Ul for the third and last exercise, same id :
+    
+      <ul id="list"> </ul> -->
+  
+  <script>
+
+/* Exercise one and two
+
+    var buttonElement = document.createElement('button');
+      buttonElement.style.width = "150px";
+      buttonElement.style.height = "50px";
+      buttonElement.style.border = "solid #444";
+      buttonElement.style.borderRadius = "50px";
+      buttonElement.style.backgroundColor = "#444";
+      buttonElement.style.color = "#fff";
+      buttonElement.style.fontFamily = "Arial";
+      buttonElement.style.fontSize ="15px";
+      buttonElement.style.fontWeight = "bold";
+      buttonElement.style.marginLeft = '45%';
+      buttonElement.style.marginTop = '5%';
+ 
+
+    var labelElement = document.createTextNode('Clik Here'); 
+      buttonElement.appendChild(labelElement);
+      document.body.appendChild(buttonElement);  
+
+    function getRandomColor() {
+    var letters = "0123456789ABCDEF";
+    var color = "#";
+    for (var i = 0; i < 6; i++) {
+     color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+  }
+    var newColor = getRandomColor(); 
+
+    buttonElement.onclick = function NewSquare() {
+
+    let boxElement = document.createElement('div');
+      boxElement.style.width = '180px';
+      boxElement.style.height = '180px';
+      boxElement.style.margin = '10px';
+      boxElement.style.marginLeft = '44%';
+      boxElement.style.marginTop = '5%';
+      boxElement.style.backgroundColor = '#f00';
+
+      boxElement.classList.add('box');
+
+      document.body.appendChild(boxElement);
+
+      boxElement.onmouseover = function (){
+        boxElement.style.backgroundColor = getRandomColor();
+
+      }
+      boxElement.appendChild(boxElement);
+  }
+  
+end . */   
+
+/* Exercise three */
+
+  /*    var buttonElement = document.querySelector('#buttons');    
+      buttonElement.style.width = "150px";
+      buttonElement.style.height = "50px";
+      buttonElement.style.border = "solid #444";
+      buttonElement.style.borderRadius = "50px";
+      buttonElement.style.backgroundColor = "#444";
+      buttonElement.style.color = "#fff";
+      buttonElement.style.fontFamily = "Arial";
+      buttonElement.style.fontSize ="15px";
+      buttonElement.style.fontWeight = "bold";
+      buttonElement.style.marginLeft = '45%';
+      buttonElement.style.marginTop = '5%';
+   
+    function generate A(){
+
+        let names = ["Diego", "Gabriel", "Lucas"];
+        let listElement = document.getElementById('list');
+
+        for(var i = 0; i < names.length; i++) {
+
+            let textsElement = document.createElement('li');
+            textsElement.appendChild(document.createTextNode(names[i]));
+            listElement.appendChild(textsElement);
+        }
+    } */
+
+ 
+/* Last exercise 
+    var inputElement = document.querySelector('input[name = inputname]');
+    var buttonElement = document.querySelector('button.button');    
+ 
+      buttonElement.onclick = function addName () {
+        
+        let listElement = document.getElementById('list');
+        let textsElement = document.createElement('li');
+        var text = inputElement.value;
+
+        textsElement.appendChild(document.createTextNode(text));
+        listElement.appendChild(textsElement);
+      
+      } 
+
+end . */    
+     
+</script>
+</body>
+</html>
